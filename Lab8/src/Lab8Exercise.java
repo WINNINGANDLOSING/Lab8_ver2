@@ -1,4 +1,5 @@
-public class Lab8Exericse {
+class Lab8Exericse {
+    
     public static int cal(int a, int b, String operator)
     {
         if(operator == "+")
@@ -18,9 +19,5 @@ public class Lab8Exericse {
             return a/b;
         }
     }
-    public static void main(String[] args) {
-        int a = 4;
-        int b = 2;
-        System.out.println(cal(a, b, "*"));
-    }
+
 }
